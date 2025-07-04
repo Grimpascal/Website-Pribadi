@@ -1,1 +1,1 @@
-nuh uh, masih belajar
+Belajar membuat website menggunakan bahasa native dari HTML, CSS, JAWASCRIPT :)
