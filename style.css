@@ -1,20 +1,54 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: aqua;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0B0C10;
 }
 
-*{
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+nav ul li a{
     text-decoration: none;
+    font-weight: bold;
+    color: #C5C6C7;
 }
 
 .logo{
-    padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 25px;
+    color: #D4AF37;
+    cursor: pointer;
 }
 
-li{
-    list-style: none;
-    padding: 5px;
-    display: inline;
+nav ul li a:hover{
+    color: #D4AF37;
+    transition: .4s;
+}
+
+.tombolGithub{
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #1F2833;
+    padding: 12px 30px;
+    font-weight: bold;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.tombolGithub:hover{
+    color: #D4AF37;
+    background: #ffffff;
+    transition: .4s;
 }
