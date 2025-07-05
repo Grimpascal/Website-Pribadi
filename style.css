@@ -52,3 +52,13 @@ nav ul li a:hover{
     background: #ffffff;
     transition: .4s;
 }
+
+.kenalan {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
